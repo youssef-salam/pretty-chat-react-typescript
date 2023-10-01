@@ -1,28 +1,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/antd/4.21.5/antd.min.css");
-
-@font-face {
-    /* TODO: Font Family https://www.dfonts.org/assets/visby-round-font-family/ */
-    font-family: 'VisbyRoundCF-Regular';
-    src: local('VisbyRoundCF-Regular'), url(./assets/VisbyRoundCF-Regular.woff) format('woff');
-    font-weight: normal;
-}
-
-@font-face {
-    /* TODO: Font Family https://www.dfonts.org/assets/visby-round-font-family/ */
-    font-family: 'VisbyRoundCF-DemiBold';
-    src: local('VisbyRoundCF-DemiBold'), url(./assets/VisbyRoundCF-DemiBold.woff) format('woff');
-    font-weight: normal;
-}
-
-@font-face {
-    /* TODO: Font Family https://www.dfonts.org/assets/visby-round-font-family/ */
-    font-family: 'VisbyRoundCF-Heavy';
-    src: local('VisbyRoundCF-Heavy'), url(./assets/VisbyRoundCF-Heavy.woff) format('woff');
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: 'VisbyRoundCF-Regular';
+    font-family: 'El Messiri', sans-serif;
     margin: 0px;
 }
 
