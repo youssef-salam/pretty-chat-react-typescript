@@ -68,27 +68,27 @@ const SignUpForm = (props: SignUpFormProps) => {
   };
 
   return (
-    <div>
-      <div className="form-title">Create an account</div>
+    <div style={{direction: right;}}>
+      <div className="form-title"إنشاء حساب</div>
 
       <div className="form-subtitle">
-        Already a member?{" "}
-        <Link onClick={() => props.onHasAccount()}>Log in</Link>
+       هل أنت عضو بالفعل?{" "}
+        <Link onClick={() => props.onHasAccount()}>تسجيل الدخول</Link>
       </div>
 
       <form onSubmit={onSubmit}>
         <TextInput
-          label="First name"
+          label="الاسم الأول"
           name="first_name"
-          placeholder="Adam"
+          placeholder="أحمد"
           style={{ width: isMobile ? "100%" : "calc(50% - 6px)" }}
           onChange={(e) => setFirstName(e.target.value)}
         />
 
         <TextInput
-          label="Last name"
+          label="الاسم الأخير"
           name="last_name"
-          placeholder="La Morre"
+          placeholder="النسب..."
           style={{
             width: isMobile ? "100%" : "calc(50% - 6px)",
             float: "right",
@@ -97,15 +97,15 @@ const SignUpForm = (props: SignUpFormProps) => {
         />
 
         <TextInput
-          label="Email"
+          label="البريد الالكتروني"
           name="email"
-          placeholder="adam@lamorre.co"
+          placeholder="ahmed@ahmed.com"
           style={{ width: isMobile ? "100%" : "calc(50% - 6px)" }}
           onChange={(e) => setEmail(e.target.value)}
         />
 
         <TextInput
-          label="Password"
+          label="كلمة المرور"
           name="password"
           placeholder="********"
           type="password"
@@ -117,7 +117,7 @@ const SignUpForm = (props: SignUpFormProps) => {
         />
 
         <PhotoInput
-          label="Profile picture"
+          label="صورة الملف الشخصي"
           name="avatar"
           id="avatar-picker"
           style={{ width: isMobile ? "100%" : "calc(50% - 6px)" }}
@@ -135,7 +135,7 @@ const SignUpForm = (props: SignUpFormProps) => {
             float: "right",
           }}
         >
-          Sign Up
+          إنشاء حساب
         </Button>
       </form>
     </div>
