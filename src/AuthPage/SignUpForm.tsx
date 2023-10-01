@@ -69,7 +69,7 @@ const SignUpForm = (props: SignUpFormProps) => {
 
   return (
     <div style={{direction: 'right'}}>
-      <div className="form-title"إنشاء حساب</div>
+      <div className="form-title">إنشاء حساب</div>
 
       <div className="form-subtitle">
        هل أنت عضو بالفعل?{" "}
