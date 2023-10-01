@@ -36,7 +36,7 @@ const styles = {
   } as CSSProperties,
   titleStyle: {
     fontSize: "24px",
-    fontFamily: "VisbyRoundCF-Heavy",
+    fontFamily: "El Messiri",
     letterSpacing: "0.5px",
     color: "white",
     paddingBottom: "11vw",
