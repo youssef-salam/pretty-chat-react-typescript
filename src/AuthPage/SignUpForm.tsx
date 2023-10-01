@@ -68,11 +68,11 @@ const SignUpForm = (props: SignUpFormProps) => {
   };
 
   return (
-    <div dir="rtl">
+    <div>
       <div className="form-title">إنشاء حساب</div>
 
       <div className="form-subtitle">
-       هل أنت عضو بالفعل?{" "}
+       هل أنت عضو بالفعل؟{" "}
         <Link onClick={() => props.onHasAccount()}>تسجيل الدخول</Link>
       </div>
 
