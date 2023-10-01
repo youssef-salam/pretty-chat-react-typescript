@@ -14,7 +14,7 @@ const AuthPage = () => {
   return (
     <div className="background-image" style={backgroundImage}>
       <div className="background-gradient-dark">
-        <div style={styles.formContainerStyle}>
+        <div style={styles.formContainerStyle} dir="center">
           <div style={styles.titleStyle}>Orongo🍊Chat</div>
 
           {hasAccount ? (
