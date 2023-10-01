@@ -68,7 +68,7 @@ const SignUpForm = (props: SignUpFormProps) => {
   };
 
   return (
-    <div>
+    <div dir="center">
       <div className="form-title">إنشاء حساب</div>
 
       <div className="form-subtitle">
