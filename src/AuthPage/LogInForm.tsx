@@ -54,7 +54,7 @@ const LogInForm = (props: LogInFormProps) => {
 
   return (
     <div>
-      <div className="form-title">Welcome Back</div>
+      <div className="form-title">مرحبا بك مرة اخرى</div>
 
       <div className="form-subtitle">
         New here? <Link onClick={() => props.onHasNoAccount()}>Sign Up</Link>
@@ -62,21 +62,21 @@ const LogInForm = (props: LogInFormProps) => {
 
       <form onSubmit={onSubmit}>
         <TextInput
-          label="Email"
+          label="البريد الالكتروني"
           name="email"
-          placeholder="adam@lamorre.co"
+          placeholder="ahmed@ahmed.com"
           onChange={(e) => setEmail(e.target.value)}
         />
 
         <TextInput
-          label="Password"
+          label="كلمة المرور"
           name="password"
           placeholder="********"
           type="password"
           onChange={(e) => setPassword(e.target.value)}
         />
 
-        <Button type="submit">Log In</Button>
+        <Button type="submit">تسجيل الدخول</Button>
       </form>
     </div>
   );
