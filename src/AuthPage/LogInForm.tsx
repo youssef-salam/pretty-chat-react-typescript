@@ -53,11 +53,11 @@ const LogInForm = (props: LogInFormProps) => {
   };
 
   return (
-    <div>
+    <div dir="center">
       <div className="form-title">مرحبا بك مرة اخرى</div>
 
       <div className="form-subtitle">
-        New here? <Link onClick={() => props.onHasNoAccount()}>Sign Up</Link>
+        جديد هنا؟ <Link onClick={() => props.onHasNoAccount()}>إنشاء حساب</Link>
       </div>
 
       <form onSubmit={onSubmit}>
