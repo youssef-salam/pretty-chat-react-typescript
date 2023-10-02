@@ -18,9 +18,9 @@ const AuthPage = () => {
           <div style={styles.titleStyle}>Orongo🍊Chat</div>
 
           {hasAccount ? (
-            <LogInForm onHasNoAccount={() => setHasAccount(false)} />
+            <LogInForm onHasNoAccount={() => setHasAccount(true)} />
           ) : (
-            <SignUpForm onHasAccount={() => setHasAccount(true)} />
+            <SignUpForm onHasAccount={() => setHasAccount(false)} />
           )}
         </div>
       </div>
