@@ -56,9 +56,9 @@ const LogInForm = (props: LogInFormProps) => {
     <div dir="center">
       <div className="form-title">مرحبا بك مرة اخرى</div>
 
-      <div className="form-subtitle">
+{/*       <div className="form-subtitle">
         جديد هنا؟ <Link onClick={() => props.onHasNoAccount()}>إنشاء حساب</Link>
-      </div>
+      </div> */}
 
       <form onSubmit={onSubmit}>
         <TextInput
